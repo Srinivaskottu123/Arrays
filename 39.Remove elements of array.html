@@ -1,0 +1,37 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var arr = [12,34,11,56,37,98,23,67,109,45]
+              var brr= []
+              var crr = []
+            // for(i=0;i<=arr.length-1;i++){
+            
+            //         if(arr[i]<arr[i+1]){
+            //             brr.push(arr[i])
+            //             brr.push(arr[i+1])
+            //         }
+            //         else{
+            //             i=i+1
+            //         }
+            //     }
+                // console.log(brr)
+            
+            //
+
+            brr[0]=arr[0];
+            var j=0;
+            for(var i=1;i<=arr.length-1;i++)
+            {
+                if(arr[i]>brr[j])
+                {
+                    j++;
+                    brr[j]=arr[i];
+                    
+
+                }
+            }
+            console.log(brr);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+           var arr =   [1,2,5,6,2,1,6,1,2,6,2,1,2];
+              for(var i=0;i<=arr.length-1;i++){
+                var count =0 
+               for(j=i+1;j<=arr.length-1;j++){
+                if(arr[i] == arr[j]){
+                    arr[i+1] = arr[j]
+                    i= i-1
+              }
+              
+            }
+            
+        }
+        for(i=0;i<=arr.length-1;i++){
+            console.log(arr[i])
+                
+                
+           }
+        
+        </script>
+    </body>
+</html>

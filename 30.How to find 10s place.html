@@ -1,0 +1,25 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var n=+prompt()
+            var sum
+            var count=0
+            var temp =n 
+            while(n>0){
+              sum=n%10
+              count++
+              n=parseInt(n/10)
+            }
+           // console.log(count)
+            for(var i=1;i<=count;i++){
+                var rem = temp%10
+                if(i==2){
+                    console.log(rem)
+                   // console.log(count)
+                }
+                temp = parseInt(temp/10)
+            }
+        </script>
+    </body>
+</html>
